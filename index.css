@@ -1,0 +1,72 @@
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    height: 450px;
+    width: 350px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: azure;
+    box-shadow: 3px 3px lightgray;
+}
+.nav{
+    padding-right: 260px;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border-width: 50px;
+    border-style: 30px solid white;
+}
+.icon{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.icon i{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px lightgray;
+}
+.icon i:hover{
+    transform: translate(1px,1px);
+    background-color: whitesmoke;
+}
+.btn{
+    border-radius: 5px;
+    inline-size: 130px;
+    block-size: 40px;
+    font-size: medium;
+    box-shadow: 0px 2px 8px 0px lightgray;
+    margin: 4px;
+    margin-top: -20px;
+    border: lightgray;
+    background-color: azure;
+}
+.btn:hover{
+    transform: translate(1px,1px);
+    background-color: whitesmoke;
+}
+.icon2{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    margin: -15px;
+    
+}
